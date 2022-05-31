@@ -1,4 +1,7 @@
 // Iteration #1: Find the maximum
+// Implement the function maxOfTwoNumbers that takes two numbers as arguments and returns the largest.
+
+
 function maxOfTwoNumbers() {}
 
 
