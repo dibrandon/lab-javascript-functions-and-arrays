@@ -2,8 +2,30 @@
 // Implement the function maxOfTwoNumbers that takes two numbers as arguments and returns the largest.
 
 
-function maxOfTwoNumbers() {}
+function maxOfTwoNumbers(num1, num2) {
+  if(num1 < num2){
+    return num2
+  }else if (num1 > num2){
+    return num1
+  }
+}
 
+// console.log(maxOfTwoNumbers(10,5)) // IT workS!!
+
+// function maxOfTwoNumbers2(num1, num2){
+//     switch (maxOfTwoNumbers2){
+//      case num1 < num2:
+//      return num2
+//      break;
+//      case num1 > num2:
+//        return num1
+//        break;
+
+//    }
+//   console.log(maxOfTwoNumbers)
+//  }
+//  console.log(maxOfTwoNumbers2(20,10))
+// averiguar que me falta en el switch
 
 
 // Iteration #2: Find longest word
